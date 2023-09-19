@@ -1,7 +1,8 @@
-export default function Home() {
+
+export default function Page() {
   return (
     <main>
-      <h1 className="flex justify-center p-10 font-extrabold">Branducci Jiacinto</h1>
+      <h1 className="text-5xl text-gradient-gray font-extrabold p-10">Jiacinto Branducci</h1>
     </main>
   )
 }
