@@ -1,16 +1,7 @@
 import Link from "next/link";
 import {SiLinkedin, SiGithub, SiGmail} from "react-icons/si"
 
-const LinkButton = ({ url, children }) => {
-  return (
-    <Link
-      href={url}
-      className="w-20 p-5 mx-2 mt-4 relative flex h-full items-center justify-center rounded-full shadow duration-300 ease-in-out hover:scale-110 l bg-slate-600 hover:bg-slate-700"
-    >
-     {children}
-    </Link>
-  );
-};
+import { LinkButton } from "./ContactlinkButton";
 
 export default function ContactLink() {
   return (

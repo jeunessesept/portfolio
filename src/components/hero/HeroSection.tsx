@@ -1,5 +1,5 @@
 import React from 'react'
-import Contactlink from "../Contactlink";
+import Contactlink from "../contact/Contactlink";
 import Image from "next/image";
 
 
