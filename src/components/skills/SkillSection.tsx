@@ -3,7 +3,7 @@ import React from "react";
 const SkillSection = () => {
   return (
     <div className="text-center">
-        <h1 className="flex justify-center text-5xl text-gradient-gray"> ⛑️ Skills 🛠️ </h1>
+        <h2 className="flex justify-center text-5xl text-gradient-gray"> ⛑️ Skills 🛠️ </h2>
       <div className="flex justify-center mt-10">
           <div>
             <h2 className="text-lg font-semibold mb-4">Back-End</h2>
