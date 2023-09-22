@@ -1,8 +1,8 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import Footer from "../components/Footer"
-import Navbar from "../components/Navbar"
+import Footer from "@/components/Footer"
+import Navbar from "@/components/Navbar"
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body className='h-screen bg-slate-800'>
       <Navbar />
       <main className={inter.className}>{children}</main>
       <Footer />
@@ -27,3 +27,4 @@ export default function RootLayout({
     </html>
   )
 }
+//gradient-to-r from-indigo-500 via-slate-600 to-emerald-900
